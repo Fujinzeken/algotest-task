@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    
+    
+}
+.App{
+    background-color:#F4F5F7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.leg-top{
+    display:flex ;
+    gap: 10px;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.leg-btn{
+    border:1px solid grey ;
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.style{
+    background-color: rgb(80, 80, 161); 
+    color: white;
+    border: none;
+    border-right:none;
+    /* border-radius:10px 0px 0px 10px; */
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.left{
+    border-right:none;
+    border-radius:10px 0px 0px 10px;
+   
+}
+.right{
+    border-radius:0px 10px 10px 0 ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.leg-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+ 
+}
+
+.form-inputs{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-wrapper > input{
+    background-color: #fff;
+    width: 50px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+
+}
+
+select{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 7px;
+    border: none;
+  
+}
+p, label{
+    font-weight: 600;
+}
+
+.form-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.form-btn >button{
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 5px 40px;
+    border: none;
+    cursor: pointer;
+    color:rgb(80, 80, 161) ;
+}
+
+.add-leg{
+    background-color: rgb(80, 80, 161) !important;
+    color: white !important;
+}
+.straddle-width-input{
+    background-color: #fff;
+    width: 50px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
 }

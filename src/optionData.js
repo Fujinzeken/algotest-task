@@ -1,0 +1,5 @@
+export const data= ['ITM20', 'ITM19', 'ITM18', 'ITM17', 'ITM16', 'ITM15','ITM14','ITM13','ITM12','ITM11','ITM10',
+'ITM9','ITM8','ITM7','ITM6','ITM5','ITM4','ITM3','ITM2','ITM1',]
+
+export const OtmData= ['OTM20', 'OTM19', 'OTM18', 'OTM17', 'OTM16', 'OTM15','OTM14','OTM13','OTM12','OTM11','OTM10',
+'OTM9','OTM8','OTM7','OTM6','OTM5','OTM4','OTM3','OTM2','OTM1',]
